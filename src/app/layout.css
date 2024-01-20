@@ -1,0 +1,51 @@
+.appBar {
+	height: 69px;
+}
+
+.MuiDrawer-paper {
+	position: relative;
+	white-space: nowrap;
+	box-sizing: border-box;
+}
+
+.drawerMenu {
+	height: 100%;
+	position: relative;
+	white-space: nowrap;
+	width: 15rem;
+	box-sizing: border-box;
+	overflow-x: hidden;
+	transition: width 0.3s cubic-bezier(0.4, 0, 0.6, 1),
+		margin 0.3s cubic-bezier(0.4, 0, 0.6, 1);
+	box-sizing: border-box;
+}
+
+.drawerClosed {
+	overflow-x: hidden;
+	width: 0;
+	transition: width 0.3s cubic-bezier(0.4, 0, 0.6, 1),
+		margin 0.3s cubic-bezier(0.4, 0, 0.6, 1);
+}
+
+.searchIconWrapper {
+	padding: 2rem;
+	pointer-events: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.search {
+	position: relative;
+	width: 100%;
+	margin-left: 0;
+	width: 100%;
+	border-radius: 5px;
+}
+
+.drawerHeader {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	padding: 1rem;
+}
